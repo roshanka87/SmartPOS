@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Transactions">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_icons8_circled_play_32"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_cardpayment"
+                    android:icon="@drawable/ic_icons8_circled_play_32"
+                    android:title="Card Payment" />
+                <item
+                    android:id="@+id/nav_digitalpayment"
+                    android:icon="@drawable/ic_icons8_circled_play_32"
+                    android:title="Digital Payment" />
+                <item
+                    android:id="@+id/nav_billpayment"
+                    android:icon="@drawable/ic_icons8_circled_play_32"
+                    android:title="Bill Payment" />
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_icons8_circled_play_32"
+                    android:title="Transaction Summary" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_icons8_circled_play_32"
+                android:title="LogOut" />
+
+        </menu>
+    </item>
+
+</menu>

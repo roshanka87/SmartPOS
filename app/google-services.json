@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "11190019968",
+    "firebase_url": "https://directpay-ae7bf.firebaseio.com",
+    "project_id": "directpay-ae7bf",
+    "storage_bucket": "directpay-ae7bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11190019968:android:652c011da1a2c4f9",
+        "android_client_info": {
+          "package_name": "com.paymedia.directpay_cargills"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11190019968-q7oqn587femq46ltdull2smnjfenn2c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN47M5HcwGraS18WAKTFPj9InNBNbIgi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

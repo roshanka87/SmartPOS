@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.admin.smartpos.activity_login">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/relative_BacktoHome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_icons8_go_back_96"
+            android:paddingStart="20px"
+
+            android:text=" Back"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/white"
+            android:paddingStart="20px"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Amount" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editText_Amount"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="30dp"
+                android:inputType="numberDecimal"
+                android:hint="0.00"
+                android:textAlignment="textEnd"
+                android:textSize="30dp"
+                android:textCursorDrawable="@null"/>
+
+            <Button
+                android:id="@+id/button_Pay"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="30dp"
+                android:text="Pay"
+                android:layout_gravity="right" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_Qr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
